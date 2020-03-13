@@ -1,0 +1,10 @@
+.portofolio {
+    background: #F5D6AB url("../images/bg.jpg") no-repeat;
+    height: 768px;
+    
+}
+
+.portofolio__fon {
+    background: rgba(198, 108, 73, 0.03) url("../images/bg.png") no-repeat;
+    height: 768px;
+}
