@@ -1,0 +1,6 @@
+.pages {
+    padding: 93px 167px 115px 165px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
