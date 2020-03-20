@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.sites {
+    display: flex;
+    flex-flow: column;
+    padding-right: 302px;
+
+}
+
+.item {
+    text-decoration-line: none;
+    padding-bottom: 14px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+
+}
+
+.phone {
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+}

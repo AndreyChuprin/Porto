@@ -14,6 +14,10 @@
     color: #333333;
 }
 
+.page__title_footer {
+    padding-bottom: 51px;
+}
+
 .page__text--utility {
     width: 349px;
 }
