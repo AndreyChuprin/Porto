@@ -1,0 +1,62 @@
+.mix {
+    display: flex;
+    flex-flow: row;
+}
+
+.text-blok {
+    display: flex;
+    flex-flow: column;
+    margin-right: 125px;
+}
+
+.transition {
+    display: flex;
+    flex-flow: row;
+    padding-left: 23px;
+    padding-top: 235px;
+}
+
+.chevron-left {
+    background: url("../images/chevronLeft.jpg") no-repeat;
+    width: 24px;
+    height: 24px;
+    color: #333333;
+    padding-right: 14px;
+}
+
+.chevron-right {
+    background: url("../images/chevronRight.jpg") no-repeat;
+    width: 24px;
+    height: 24px;
+    color: #333333;
+}
+
+.img-blok {
+    display: flex;
+    flex-flow: column;
+    margin-right: 30px;
+}
+
+.ships {
+    background: url("../images/ships.jpg") no-repeat;
+    margin-bottom: 26px;
+    width: 350px;
+    height: 144px;
+}
+
+.river {
+    background: url("../images/river.jpg") no-repeat;
+    height: 233px;
+}
+
+.bridge {
+    background: url("../images/bridge.jpg") no-repeat;
+    height: 241px;
+}
+
+.house {
+    background: url("../images/house.jpg") no-repeat;
+    width: 255px;
+    height: 144px;
+    margin-top: 18px;
+}

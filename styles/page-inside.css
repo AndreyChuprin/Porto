@@ -1,0 +1,11 @@
+.page-inside {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    background: url("../images/prof-pic.png") #C66C49 no-repeat;
+    width: 350px;
+    height: 340px;
+}
