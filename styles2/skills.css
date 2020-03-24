@@ -1,0 +1,14 @@
+.skills {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 65px;
+  row-gap: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.skillName {
+  font-weight: 600;
+}

@@ -1,0 +1,24 @@
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 60px;
+}
+
+.menu__item:hover,
+.menu__item--selected {
+  font-weight: bold;
+}
+
+.menu__item:last-of-type {
+  margin-right: 0;
+}

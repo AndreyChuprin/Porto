@@ -1,0 +1,26 @@
+.progress {
+  position: relative;
+  background-color: #f5d6ab;
+  height: 24px;
+}
+
+.progress__bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  background-color: #c66c49;
+}
+
+.progress__bar--90 {
+  width: 90%;
+}
+
+.progress__bar--80 {
+  width: 80%;
+}
+
+.progress__bar--70 {
+  width: 70%;
+}

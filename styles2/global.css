@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Libre Franklin;
+  color: #333333;
+}
+
+.container {
+  width: 1440px;
+}
