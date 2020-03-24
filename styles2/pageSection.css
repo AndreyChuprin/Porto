@@ -23,7 +23,7 @@
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
-  margin-block-start: 2em;
+  margin-block-start: 1em;
   margin-block-end: 2em;
 }
 
@@ -37,6 +37,9 @@
 }
 
 .pageSection__leftColumn {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
   width: 350px;
   margin-right: 125px;
 }
@@ -48,4 +51,15 @@
 .profileImage {
     width: 350px;
     height: 340px;
+}
+
+.portfolioImage {
+  width: 635px;
+  height: 403px;
+}
+
+.arrow {
+  margin-top: 200px;
+  width: 62px;
+  height: 24px;
 }

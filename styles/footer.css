@@ -1,27 +1,42 @@
 .footer {
-    display: flex;
-    flex-flow: row;
-
+  width: 1440px;
+  padding-left: 165px;
+  padding-right: 347px;
+  padding-top: 93px;
+  padding-bottom: 189px;
+  background-color: #fffaf2;
 }
 
-.sites {
-    display: flex;
-    flex-flow: column;
-    padding-right: 302px;
-
+.footer__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 51px;
 }
 
 .item {
-    text-decoration-line: none;
-    padding-bottom: 14px;
-    font-size: 18px;
-    line-height: 22px;
-    color: #333333;
-
+  text-decoration-line: none;
+  padding-bottom: 14px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
 }
 
 .phone {
-    font-size: 15px;
-    line-height: 18px;
-    color: #333333;
+  font-size: 15px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.footer__content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.footer__content--column {
+  display: flex;
+  flex-flow: column;
 }
